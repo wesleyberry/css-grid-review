@@ -5,8 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            grid-gap: 1em;
+        }
+        .wrapper > div {
+            background: #eee;
+            padding: 1em;
+        }
+        .wrapper > div:nth-child(odd) {
+            background: #ddd;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello</h1>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, necessitatibus suscipit est et in explicabo assumenda, 
+            voluptatem harum sed, fugit voluptate perspiciatis! Laudantium corrupti aliquam quam vero natus odio asperiores nam nobis totam, 
+            enim corporis eveniet assumenda est itaque, porro, blanditiis consequatur perspiciatis quisquam! 
+            Quibusdam sapiente vero repellat expedita illo eos nemo doloremque magni consectetur maiores possimus non libero nisi odit iure laborum omnis quo asperiores fugiat recusandae laboriosam, itaque molestias? 
+            Quasi pariatur, ipsa illum dignissimos sed eius laboriosam. Voluptatum.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Similique laudantium, hic suscipit odio molestias quia cum dolor doloribus nam eligendi pariatur corporis molestiae. Voluptatem quae, sint ipsa veniam odit ea.
+        </div>
+        <div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, necessitatibus suscipit est et in explicabo assumenda, 
+            voluptatem harum sed, fugit voluptate perspiciatis! Laudantium corrupti aliquam quam vero natus odio asperiores nam nobis totam, 
+            enim corporis eveniet assumenda est itaque, porro, blanditiis consequatur perspiciatis quisquam! 
+            Quibusdam sapiente vero repellat expedita illo eos nemo doloremque magni consectetur maiores possimus non libero nisi odit iure laborum omnis quo asperiores fugiat recusandae laboriosam, itaque molestias? 
+            Quasi pariatur, ipsa illum dignissimos sed eius laboriosam. Voluptatum.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Similique laudantium, hic suscipit odio molestias quia cum dolor doloribus nam eligendi pariatur corporis molestiae. Voluptatem quae, sint ipsa veniam odit ea.
+        </div>
+    </div>
 </body>
 </html>
